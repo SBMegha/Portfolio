@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://ionic.io/ionicons">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header class="main">
+        <nav>
+            <ul class="navigate">
+                <li class="item"><a href="#contact">Contact me</a></li>
+                <li class="item"><a href="#Projects">Projects</a></li>
+                <li class="item"><a href="#about-me">About me</a></li>
+            </ul>
+        </nav>
+        
+        <div class="home">
+            <p class="intro">
+                <h1><nobr>Hi there! I am Megha.</nobr> </h1>
+                <img src="/my-pic.png" alt="My photo" class="pic">
+            </p>
+        </div>
+    </header>
+
+
+    <section id="about-me">
+        <h2 >About Me</h2>
+        <h3 class="aboutme"><span>Name : </span>Megha</h3>
+        <h3 class="aboutme"><span>College : </span><a href="sirmvit.edu" target="_blank" class="info">Sir.M.Visvesvaraya Institute Of Technology</a></h3>
+        <h3 class="aboutme"><span>Department : </span>Computer Science And Engineering</h3>
+        <h3 class="aboutme"><span>Email id : </span><a href="mailto:meghashivaleela@gmail.com" target="_blank" class="info">meghashivaleela@gmail.com</a></h3>
+        <h3 class="aboutme"><span>Skills : </span>C, C++, Java, HTML5, CSS3, Java Script</h3>
+        <h3 class="aboutme"><span>Tools : </span>Visual Studio Code, Chrome</h3>
+        <h3 class="aboutme"><span>Interests : </span>Sketching, Badminton</h3>
+    </section>
+
+
+    <section id="Projects" class="projects">
+        <h2>Projects</h2>
+        <div class="container">
+            <div class="column">
+                <img src="/tic-tac-toe.png" alt="Tic-Tac-Toe" width="280" height="250">
+                <h3>Tic-Tac-Toe</h3>
+                <p class="pro-info">Tic Tac Toe is a two-player game in which the objective is to take turns and mark the correct spaces in a 3x3 (or larger) grid.</p>
+            </div>
+            <div class="column">
+                <img src="/arduino.png" alt="Tic-Tac-Toe" width="320" height="250">
+                <h3>Traffic Signal Control</h3>
+                <p class="pro-info">The project is to implement a simple traffic light controller using Arduino UNO.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">        
+        <h2>Connect With Me</h2>
+        <div class="contact">
+            <div class="form">
+                <h4>Send a message</h4>
+                <div class="contact-info">
+                    <form action="" method="get">
+                        <label for="">Name</label><br>
+                        <input type="text" name="username" placeholder="Username">
+                    </form>
+                    <form action="" method="get">
+                        <label for="">Contact no.</label><br>
+                        <input type="text" name="ph-no" placeholder="Phone number">
+                    </form>
+                    <form action="" method="get">
+                        <label for="">Email</label><br>
+                        <input type="text" name="Email-id" placeholder="Email-id">
+                    </form>
+                    <form action="" method="get">
+                        <label for="">Message</label><br>
+                        <textarea name="message" id="" cols="47" rows="3" placeholder="Write your message here"></textarea>
+                    </form>
+                    <div class="submit">
+                        <input type="submit" name="submit" value="Send">
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="form2">
+                <div class="contact-info">
+                    <h4>Get in touch</h4>
+                    <div class="info-box">
+                        <div class="loc">
+                            <span><ion-icon name="location"></ion-icon></span>
+                            <p>Bengaluru, Karnataka. <br> INDIA 562157</p>
+                        </div>
+                        <div>
+                            <span><ion-icon name="mail"></ion-icon></span>
+                            <a href="mailto:meghashivaleela@gmail.com">meghashivaleela@gmail.com</a>
+                        </div>
+                        <div>
+                            <span><ion-icon name="call"></ion-icon></span>
+                            <a href="tel:+912134567890">+912134567890</a>
+                        </div>
+                        <ul  class="social">
+                            <li><a href="https://www.instagram.com/megha__biradar/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                            <li><a href="https://t.me/Megha_S_B" target="_blank"><ion-icon name="paper-plane-outline"></ion-icon></a></li>
+                            <li><a href="https://www.linkedin.com/in/megha-0445b1242" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                            <li><a href="https://github.com/SBMegha" target="_blank" ><ion-icon name="logo-github"></ion-icon></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="copyright">Megha. All rights reserved &copy;</p> 
+    </section>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
